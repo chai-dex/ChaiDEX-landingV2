@@ -17,7 +17,7 @@ const Home = () => {
               trade.
             </p>
             </div>
-            <a href="#">
+            <a href="/src/pages/Home.js">
               <button type="button" class="btn btn-lg btn-primary ">
                 ChaiDEX Wallet
               </button>
@@ -27,7 +27,7 @@ const Home = () => {
       </div>
 
       <div class="col-md-6  d-md-block d-none d-flex-end" style={{marginTop:"45px"}}>
-        <img src="/assets/hero image.png" class="img-fluid w-100 " />
+        <img src="/assets/hero image.png" alt="..." class="img-fluid w-100 " />
       </div>
     </section>
   );

@@ -5,8 +5,7 @@ const Roadmap = () => {
   const isDesktopOrLaptop = useMediaQuery({
     query: "(min-width: 1224px)",
   });
-  const isBigScreen = useMediaQuery({ query: "(min-width: 1824px)" });
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+ 
   return (
     <section
       class="why-chaidex my-5 py-2 d-flex justify-content-center align-items-center flex-column"
@@ -24,6 +23,7 @@ const Roadmap = () => {
           style={{
             width: "100%",
           }}
+          alt="..."
           src={
             isDesktopOrLaptop
               ? "/assets/roadmap.png"

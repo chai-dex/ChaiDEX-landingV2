@@ -5,8 +5,7 @@ const GetyourChait = () => {
   const isDesktopOrLaptop = useMediaQuery({
     query: "(min-width: 1224px)",
   });
-  const isBigScreen = useMediaQuery({ query: "(min-width: 1824px)" });
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+  
   return (
     <div
       className="row my-5 my-linear-backround container mx-auto"
@@ -27,7 +26,7 @@ const GetyourChait = () => {
         <div className="text-white mb-3  ">
           Get ChaiT airdropped to your wallet and start trading!
         </div>
-        <a className="custom-btn  fw-bold" href="#">
+        <a className="custom-btn  fw-bold" href="/">
           Clain Yours now
         </a>
       </div>
@@ -44,6 +43,7 @@ const GetyourChait = () => {
               ? "/assets/wallet.png"
               : "/assets/wallet_mobile.png"
           }
+          alt="..."
         />
       </div>
     </div>

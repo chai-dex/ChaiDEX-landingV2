@@ -5,7 +5,7 @@ const LastInfo = () => {
     <section>
       <div class="row g-0">
         <div class="col-md-6 col-sm-12">
-          <img src="#" alt="" class="w-100" />
+          <img src="/assets/trade.png" alt="" class="w-100" />
         </div>
         <div class="col-md-5 col-sm-12 d-flex align-items-center justify-content-center">
           <div class="p2p-section-text p-5">

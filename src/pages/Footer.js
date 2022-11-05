@@ -15,35 +15,35 @@ const Footer = () => {
         <div class="col-md-2 col-sm-12">
           <div class="col">
             <div class="row">
-              <a href="#" class="text-muted mb-4">
+              <a href="/src/pages/Home.js" class="text-muted mb-4">
                 Home
               </a>
-              <a href="#chai-p2p" class="text-muted mb-4">
+              <a href="/src/pages/Home.js" class="text-muted mb-4">
                 Bounty
               </a>
             </div>
-            <div class="row"><a href="#chai-p2p" class="text-muted">P2P</a></div>
+            <div class="row"><a href="/src/pages/Home.js" class="text-muted">P2P</a></div>
           </div>
         </div>
 
         <div class="col-md-2 col-sm-12">
           <div class="col">
             <div class="row">
-              <a href="#" class="text-muted mb-4">
+              <a href="/src/pages/Home.js" class="text-muted mb-4">
               Airdrop
               </a>
-              <a href="#chai-p2p" class="text-muted mb-4">
+              <a href="/src/pages/WhyChaiDEX.js" class="text-muted mb-4">
               Why Us
               </a>
             </div>
-            <div class="row"><a href="#chai-p2p" class="text-muted">Blogs</a></div>
+            <div class="row"><a href="/src/pages/Home.js" class="text-muted">Blogs</a></div>
           </div>
         </div>
 
         <div class="col-md-2 col-sm-10">
           <div class="col">
             <div class="row">
-              <a href="#" class="text-muted mb-4">
+              <a href="/src/pages/Home.js" class="text-muted mb-4">
               Subscribe
               </a>
               <a href="#chai-p2p" class="text-muted mb-4">
@@ -87,17 +87,17 @@ const Footer = () => {
         <div class="col-md-4 col-sm-12 mb-3">
           <div class="d-flex justify-content-center align-items-center">
             <div class="icon-container me-2">
-              <a href="#">
+              <a href="https://twitter.com/chaidexHQ" target="_blank" rel="noreferrer">
                 <img src="/assets/cib_telegram-plane.png" alt="" />
               </a>
             </div>
             <div class="icon-container me-2">
-              <a href="#">
+              <a href="https://twitter.com/chaidexHQ" target="_blank" rel="noreferrer">
                 <img src="/assets/instagram.png" alt="" />
               </a>
             </div>
             <div class="icon-container me-2">
-              <a href="https://twitter.com/chaidexHQ" target="_blank">
+              <a href="https://twitter.com/chaidexHQ" target="_blank" rel="noreferrer">
                 <img src="/assets/twitter.png" alt="" />
               </a>
             </div>

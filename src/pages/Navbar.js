@@ -17,7 +17,7 @@ const Navbar = () => {
     </button>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> ChaiDEX <span style={{color:'orange'}}>.</span></h5>
            <button
             type="button"
             class="btn-close"
@@ -46,7 +46,7 @@ const Navbar = () => {
             <li class="nav-item dropdown  h5">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="/"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -55,26 +55,26 @@ const Navbar = () => {
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Bounty
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Airdrop
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Subscribe
                   </a>
                 </li>
               </ul>
             </li>
             <li class="nav-item h5 me-3 mx-4">
-              <a href="#">
+              <a href="/">
                 <button type="button" class="btn btn-primary">
-                  ChaiDEX Wallet ->
+                  ChaiDEX Wallet 
                 </button>
               </a>
             </li>
