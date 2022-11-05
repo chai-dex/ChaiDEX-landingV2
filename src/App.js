@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Home from "./pages/Home";
+import Navbar from "./pages/Navbar";
+import ListCoin from "./pages/ListCoin";
+import WhyChaiDEX from "./pages/WhyChaiDEX";
+import GetyourChait from "./pages/GetyourChait";
+import Roadmap from "./pages/Roadmap";
+import LastInfo from "./pages/LastInfo";
+import Footer from "./pages/Footer";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="container">
+        <Navbar />
+        <Home />
+        <ListCoin />
+        <WhyChaiDEX />
+        <GetyourChait />
+        <Roadmap />
+        <LastInfo />
+        <Footer />
+      </div>
   );
 }
 
