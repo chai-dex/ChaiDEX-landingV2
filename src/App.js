@@ -9,7 +9,7 @@ import LastInfo from "./pages/LastInfo";
 import Footer from "./pages/Footer";
 function App() {
   return (
-      <div className="container">
+      <div className="container" style={{justifyContent:'center',alignItems:'center', alignContent:'center'}}>
         <Navbar />
         <Home />
         <ListCoin />

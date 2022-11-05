@@ -8,7 +8,7 @@ const GetyourChait = () => {
   
   return (
     <div
-      className="row my-5 my-linear-backround container mx-auto"
+      className=" row my-5 my-linear-backround container mx-auto"
       style={{
         borderRadius: "20px",
         paddingRight: 0,
