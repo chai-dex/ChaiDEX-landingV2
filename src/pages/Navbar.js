@@ -83,12 +83,13 @@ const Navbar = () => {
               role="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
+               target="_blank" rel="noreferrer"
             >
               Whitepapers
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="/">
+                <a class="dropdown-item" href="https://docs.google.com/document/d/1gatILV6zhU9kXKKx8zyOOnA2Ykc1me7AAGjtEdizch8/edit?usp=sharing" target="_blank" rel="noreferrer">
                   ChaiDEX 
                 </a>
               </li>

@@ -7,6 +7,8 @@ import GetyourChait from "./pages/GetyourChait";
 import Roadmap from "./pages/Roadmap";
 import LastInfo from "./pages/LastInfo";
 import Footer from "./pages/Footer";
+import TermsandConditions from "./pages/TermsandConditions";
+
 function App() {
   return (
       <div className="container" style={{justifyContent:'center',alignItems:'center', alignContent:'center'}}>
@@ -18,6 +20,7 @@ function App() {
         <Roadmap />
         <LastInfo />
         <Footer />
+        <TermsandConditions />
       </div>
   );
 }
