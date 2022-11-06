@@ -40,7 +40,21 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="col-md-2 col-sm-10">
+        <div class="col-md-2 col-sm-12">
+          <div class="col">
+            <div class="row">
+              <a href="/src/pages/Home.js" class="text-muted mb-4">
+              Terms and Conditions
+              </a>
+              <a href="/src/pages/WhyChaiDEX.js" class="text-muted mb-4">
+              Privacy
+              </a>
+            </div>
+            <div class="row"><a href="/src/pages/Home.js" class="text-muted">Risk Disclosure</a></div>
+          </div>
+        </div>
+       
+        <div class="col-md-2 col-sm-12">
           <div class="col">
             <div class="row">
               <a href="/src/pages/Home.js" class="text-muted mb-4">
@@ -55,6 +69,8 @@ const Footer = () => {
 
           
         </div>
+
+        
 
         {/* <div class="col-md-4 col-sm-12" style={{marginTop:'25px'}}>
           <div class="col">

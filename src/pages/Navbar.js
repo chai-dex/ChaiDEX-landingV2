@@ -5,12 +5,17 @@ const Navbar = () => {
     <nav class="navbar bg-white navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand m-0 p-0" href="/">
-        <h2 class="fw-bold display-5">
-          ChaiDEX
+       
+       
+     
+        <h2 class="fw-bold display-5 " style={{alignContent:'center',alignItems:'center' ,justifyContent:'center'}}  >
+        <img src="/assets/chaiDEXlogo.png"  style={{marginRight:"10px"}} />      
+           ChaiDEX
           <span class="fw-bold display-5" style={{ color: " #ff902b" }}>
             .
           </span>
         </h2>
+        
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
     <span class="navbar-toggler-icon"></span>
@@ -67,6 +72,34 @@ const Navbar = () => {
               <li>
                 <a class="dropdown-item" href="/">
                   Subscribe
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown  h5">
+            <a
+              class="nav-link dropdown-toggle"
+              href="/"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Whitepapers
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="/">
+                  ChaiDEX 
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/">
+                  ChaiWallet
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/">
+                  INRC
                 </a>
               </li>
             </ul>
