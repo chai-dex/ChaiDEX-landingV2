@@ -127,7 +127,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a class="dropdown-item" href="/">
-                      INRC
+                      ChaiT
                     </a>
                   </li>
                 </ul>
