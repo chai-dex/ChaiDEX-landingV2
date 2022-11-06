@@ -113,20 +113,25 @@ const Navbar = () => {
                   <li>
                     <a
                       class="dropdown-item"
-                      href="https://docs.google.com/document/d/1gatILV6zhU9kXKKx8zyOOnA2Ykc1me7AAGjtEdizch8/edit?usp=sharing"
+                      href="/public/whitepapers/ChaiDEX Whitepaper -v1.pdf"
                       target="_blank"
                       rel="noreferrer"
+                      download
                     >
-                      ChaiDEX
+                      ChaiDEX 
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/">
+                    <a class="dropdown-item" href="/public/whitepapers/Chai Wallet Whitepaper - v1.pdf " target="_blank"
+                      rel="noreferrer"
+                      download>
                       ChaiWallet
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/">
+                    <a class="dropdown-item" href="/public/whitepapers/ChaiT Whitepaper - v1.pdf" target="_blank"
+                      rel="noreferrer"
+                      download>
                       ChaiT
                     </a>
                   </li>
