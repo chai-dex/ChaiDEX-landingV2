@@ -1,11 +1,12 @@
 import React from "react";
+import { a } from "react-router-dom";
 const Navbar = () => {
   return (
-    <nav class="navbar bg-white navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand m-0 p-0" href="/">
+    <nav className="navbar bg-white navbar-expand-lg">
+      <div className="container-fluid">
+        <a className="navbar-brand m-0 p-0" href="/">
           <h2
-            class="fw-bold display-5 "
+            className="fw-bold display-5 "
             style={{
               alignContent: "center",
               alignItems: "center",
@@ -18,60 +19,58 @@ const Navbar = () => {
               style={{ marginRight: "10px" }}
             />
             ChaiDEX
-            <span class="fw-bold display-5" style={{ color: " #ff902b" }}>
+            <span className="fw-bold display-5" style={{ color: " #ff902b" }}>
               .
             </span>
           </h2>
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
+          className="offcanvas offcanvas-end"
+          tabIndex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-              {" "}
+          <div className="offcanvas-header">
+            <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
               ChaiDEX <span style={{ color: "orange" }}>.</span>
             </h5>
             <button
               type="button"
-              class="btn-close"
+              className="btn-close"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             >
-              {" "}
             </button>
           </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item h5 me-3">
-                <a class="nav-link" aria-current="page" href="/">
+          <div className="offcanvas-body">
+            <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li className="nav-item h5 me-3">
+                <a className="nav-a" aria-current="page" href="/">
                   Home
                 </a>
               </li>
-              <li class="nav-item h5 me-3">
-                <a class="nav-link" href="#why-us">
+              <li className="nav-item h5 me-3">
+                <a className="nav-a" href="#why-us">
                   Why Us
                 </a>
               </li>
-              <li class="nav-item h5 me-3">
-                <a class="nav-link" href="#chai-p2p">
+              <li className="nav-item h5 me-3">
+                <a className="nav-a" href="#chai-p2p">
                   P2P
                 </a>
               </li>
-              <li class="nav-item dropdown  h5">
+              <li className="nav-item dropdown  h5">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-a dropdown-toggle"
                   href="/"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -79,27 +78,27 @@ const Navbar = () => {
                 >
                   Activities
                 </a>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="/">
+                    <a className="dropdown-item" href="/">
                       Bounty
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/">
+                    <a className="dropdown-item" href="/">
                       Airdrop
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/">
+                    <a className="dropdown-item" href="/">
                       Subscribe
                     </a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item dropdown  h5">
+              <li className="nav-item dropdown  h5">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-a dropdown-toggle"
                   href="/"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -109,37 +108,45 @@ const Navbar = () => {
                 >
                   Whitepapers
                 </a>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li>
                     <a
-                      class="dropdown-item"
-                      href="/public/whitepapers/ChaiDEX Whitepaper -v1.pdf"
+                      className="dropdown-item"
+                      href="/whitepapers/ChaiDEX Whitepaper-v1.pdf"
                       target="_blank"
                       rel="noreferrer"
                       download
                     >
-                      ChaiDEX 
+                      ChaiDEX
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/public/whitepapers/Chai Wallet Whitepaper - v1.pdf " target="_blank"
+                    <a
+                      className="dropdown-item"
+                      href="/whitepapers/Chai Wallet Whitepaper-v1.pdf "
+                      target="_blank"
                       rel="noreferrer"
-                      download>
+                      download
+                    >
                       ChaiWallet
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/public/whitepapers/ChaiT Whitepaper - v1.pdf" target="_blank"
+                    <a
+                      className="dropdown-item"
+                      href="/whitepapers/ChaiTWhitepaper-v1.pdf"
+                      target="_blank"
                       rel="noreferrer"
-                      download>
+                      download
+                    >
                       ChaiT
                     </a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item h5 me-3 mx-4">
+              <li className="nav-item h5 me-3 mx-4">
                 <a href="/">
-                  <button type="button" class="btn btn-primary">
+                  <button type="button" className="btn btn-primary">
                     ChaiDEX Wallet
                   </button>
                 </a>

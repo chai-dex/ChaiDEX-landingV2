@@ -1,5 +1,6 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
+import { Link } from "react-router-dom";
 
 const GetyourChait = () => {
   const isDesktopOrLaptop = useMediaQuery({
@@ -26,9 +27,9 @@ const GetyourChait = () => {
         <div className="text-white mb-3  ">
           Get ChaiT airdropped to your wallet and start trading!
         </div>
-        <a className="custom-btn  fw-bold" href="/">
+        <Link className="custom-btn  fw-bold" href="/">
           Clain Yours now
-        </a>
+        </Link>
       </div>
       <div
         className="col-sm-12 col-md-7 d-flex justify-content-center custom-img position-relative"

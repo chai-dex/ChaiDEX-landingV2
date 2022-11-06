@@ -3,12 +3,12 @@ import React from "react";
 const TermsandConditions = () => {
   return (
     <container>
-    <div style={{ marginTop: "35px" }}>
-        <h3 class="fs-3 fw-bold">General Terms and Conditions</h3>
-        <h4 class="fs-4 fw-semibold " style={{ marginTop: "15px" }}>
+      <div style={{ marginTop: "35px" }}>
+        <h3 className="fs-3 fw-bold">General Terms and Conditions</h3>
+        <h4 className="fs-4 fw-semibold " style={{ marginTop: "15px" }}>
           for Access and Use of the chaidex.com Website
         </h4>
-        <p class="fs-5">
+        <p className="fs-5">
           PLEASE READ CAREFULLY! THIS DOCUMENT REPRESENTS THE LEGAL BINDING
           BETWEEN CHAIDEX.COM AND THE USER. WE INVITE YOU TO READ THESE TERMS &
           CONDITIONS BEFORE USING THE PROVIDED SERVICES. PLEASE, ALSO CHECK OUR
@@ -17,8 +17,8 @@ const TermsandConditions = () => {
           TO THE USE OF OUR WEBSITE, PLATFORM, PRODUCTS AND SERVICES.
         </p>
 
-        <p class="fs-5">Disclaimer</p>
-        <h4 class="fs-4 fw-normal ">
+        <p className="fs-5">Disclaimer</p>
+        <h4 className="fs-4 fw-normal ">
           To the maximum extent permitted by applicable law, we exclude all
           representations, warranties and conditions relating to our website and
           the use of our website. Nothing in this disclaimer will:
@@ -37,13 +37,13 @@ const TermsandConditions = () => {
             </h4>
           </li>
         </ul>
-        <h4 class="fs-4 fw-normal ">
+        <h4 className="fs-4 fw-normal ">
           Our Crypto Services carry a high level of knowledge and risk, and can
           result in losses. The high level of risk means our Crypto Services is
           not suitable for everyone. If you are in any doubt, you should seek
           independent advice.
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "15px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "15px" }}>
           By submitting an application to request information or to initiate a
           commercial relationship with us, you confirm:
         </h4>
@@ -64,10 +64,10 @@ const TermsandConditions = () => {
           </li>
         </ul>
 
-        <h4 class="fs-4 fw-semibold " style={{ marginTop: "15px" }}>
+        <h4 className="fs-4 fw-semibold " style={{ marginTop: "15px" }}>
           General provisions
         </h4>
-        <h4 class="fs-4 fw-normal ">
+        <h4 className="fs-4 fw-normal ">
           The website https://chaidex.com/ is privately owned and operated.
           Throughout the site, the terms “we”, “us”, and “our” refer to the
           Owner of the platform. The Owner offers this website, including all
@@ -75,43 +75,43 @@ const TermsandConditions = () => {
           the User, conditioned upon your acceptance of all the provisions
           stated here.
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           By visiting our website and/ or purchasing a Service from us, you
           engage in our “Service” and agree to be bound by the following Terms
           and Conditions (“Terms and Conditions”, “Terms”). In case you do not
           agree with the clauses of the present document, please stop using the
           Services.
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           Any new features or tools which are added to the current line of
           Services shall also be subject to the Terms and Conditions. You can
           review the most current version of the document at any time on this
           page.
         </h4>
 
-        <h4 class="fs-4 fw-semibold " style={{ marginTop: "35px" }}>
+        <h4 className="fs-4 fw-semibold " style={{ marginTop: "35px" }}>
           1. INTRODUCTION
         </h4>
-        <h4 class="fs-4 fw-normal ">1.1. Contracting Parties</h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal ">1.1. Contracting Parties</h4>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           The Owner of the platform - as service provider, and "The User" - any
           legal or private entity which benefits of any of our Services at
           https://chaidex.com/.
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           1.2. Representations
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           Authority and Capacity. The parties and their legal representatives
           guarantee that they have the authority and capacity to enter into this
           agreement. Enforceability. This agreement constitutes a legal, valid,
           and binding obligation, enforceable against the parties according to
           its terms.
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           1.3. Definitions
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           "Visitor" means any person who visits the websites but does not create
           an account with us. "Registration" & "Register" means the procedure of
           creating a user account on our website. "Service" means any of the
@@ -121,16 +121,16 @@ const TermsandConditions = () => {
           "Purchase" means the contract under which the User acquires and pays
           for a service or for the cryptocurrency token on our platform;
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           1.4. Website Accuracy
         </h4>
 
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           Although we intend to provide accurate and timely information on the
           website, it may not always be entirely accurate, complete or current
           and may also include technical inaccuracies or typographical errors.
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           In an effort to continuously provide you with as complete and accurate
           information as possible, information may, to the extent permitted by
           applicable law, be changed or updated from time to time without
@@ -140,23 +140,23 @@ const TermsandConditions = () => {
           information contained on the website are your sole responsibility and
           we shall have no liability for such decisions.
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           Links to third party materials (including without limitation any
           websites) may be provided as a convenience but are not controlled by
           us. You acknowledge and agree that we are not responsible for any
           aspect of the information, content, or services contained in any such
           third-party materials accessible or linked to from the website.
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           1.5. Eligibility
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           To be eligible to use any of the Services, the User must either be
           legally incorporated, or at least 18 years old, and reside in a
           country (or an area) in which the relevant Services are accessible.
           Please note that our Services are not available in every country.
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           For the purposes of these Terms, applicable laws and regulations shall
           include the rules of any relevant regulatory authority or exchange and
           any applicable laws, rules, procedures, guidance, codes, standards and
@@ -167,11 +167,11 @@ const TermsandConditions = () => {
 
         {/* the right to use the service */}
 
-        <h4 class="fs-4 fw-semibold " style={{ marginTop: "35px" }}>
+        <h4 className="fs-4 fw-semibold " style={{ marginTop: "35px" }}>
           2. THE RIGHT TO USE THE SERVICES
         </h4>
-        <h4 class="fs-4 fw-normal ">2.1. Procedures</h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal ">2.1. Procedures</h4>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           In order to avail access to our product and services, the User is
           required to provide a set of information, including, without
           limitation: complete legal and contact information, payment and
@@ -182,44 +182,44 @@ const TermsandConditions = () => {
           to any person who is not authorized to access the Products or
           Services.
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           We reserve the right to refuse Services to anyone for any reason, at
           any time.
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           The User receives a limited, terminable, non-exclusive and
           non-transferable right of access and use the Services, in accordance
           with the terms of this Agreement, exclusively for the purposes for
           which the Services are construed.
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           2.2. Description of Services{" "}
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           ChaiDEX is a decentralized exchange project that created a token named
           Chai T, to be used as a utility token within the ecosystem, purposed
           for creating a speculative trading opportunity with the help of an
           extremely active community that loves our mission, thus trying to
           increase the standard of living within society.{" "}
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           2.3. User’s obligations
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           The User accepts the full responsibility for all activities connected
           its compliance with the terms of this document. It is at all times the
           User who is a party to this agreement with us, and who has all rights
           and obligations set out in this document.
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           The User accepts that we may contact the User through different means
           of communication, and provide general marketing information or other
           information about the Services.
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           2.4. Prohibited usage
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           Under all circumstances, the User is strictly prohibited from
           permitting, assisting or enabling any individual or entity not
           authorized from accessing or using the Services. In the event that the
@@ -232,7 +232,7 @@ const TermsandConditions = () => {
           activities arising from the authorized or unauthorized access of the
           Services.
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           The following activities are prohibited and will result in immediate
           Services suspension or cancellation of the Services without the
           possibility of a refund, but with the possibility for us to impose
@@ -308,15 +308,15 @@ const TermsandConditions = () => {
         </ul>
 
         {/* 3 suspending */}
-        <h4 class="fs-4 fw-semibold " style={{ marginTop: "35px" }}>
+        <h4 className="fs-4 fw-semibold " style={{ marginTop: "35px" }}>
           3. SUSPENDING OR TERMINATING THE SERVICES
         </h4>
-        <h4 class="fs-4 fw-normal ">
+        <h4 className="fs-4 fw-normal ">
           Right to suspend the Services. We may, acting reasonably, suspend the
           User’s Services at any time and may, at any time and for any reason
           and without notice.
         </h4>
-        <h4 class="fs-4 fw-normal " style={{ marginTop: "20px" }}>
+        <h4 className="fs-4 fw-normal " style={{ marginTop: "20px" }}>
           If the User’s Services are suspended, they will be able to close any
           existing trades but will not be permitted to open any new trades or
           agreements. The circumstances where we may suspend the User’s Services
@@ -346,7 +346,7 @@ const TermsandConditions = () => {
             </h4>
           </li>
         </ul>
-        <h4 class="fs-4 fw-normal ">
+        <h4 className="fs-4 fw-normal ">
           Right to close the User’s Services. We may, acting reasonably, close
           the User’s Services at any time. We shall normally notify the User by
           email and such termination will take effect upon notice being sent to
@@ -389,10 +389,10 @@ const TermsandConditions = () => {
         </ul>
 
         {/* 4 ip right */}
-        <h4 class="fs-4 fw-semibold " style={{ marginTop: "35px" }}>
+        <h4 className="fs-4 fw-semibold " style={{ marginTop: "35px" }}>
           4. INTELLECTUAL PROPERTY RIGHTS
         </h4>
-        <h4 class="fs-4 fw-normal ">
+        <h4 className="fs-4 fw-normal ">
           The User hereby acknowledges and agree that we own the intellectual
           property rights for the website, the logo, the platform, the crypto
           project in its entirety and the underlying Token, for all present and
@@ -409,7 +409,7 @@ const TermsandConditions = () => {
           any rights, title, or interest in or to such intellectual property
           rights.
         </h4>
-        <h4 class="fs-4 fw-normal ">
+        <h4 className="fs-4 fw-normal ">
           The User must not, without prior written our consent:
         </h4>
         <ul>
@@ -430,16 +430,16 @@ const TermsandConditions = () => {
             <h4>Redistribute content from https://chaidex.com/</h4>
           </li>
         </ul>
-        <h4 class="fs-4 fw-normal ">
+        <h4 className="fs-4 fw-normal ">
           Confidentiality. User’s privacy is important to us and we will abide
           by our Privacy Policy. We reserve the right to modify our Privacy
           Policy from time to time.{" "}
         </h4>
-        <h4 class="fs-4 fw-normal ">
+        <h4 className="fs-4 fw-normal ">
           Processing of personal data. The Services offered by us entail
           collecting and processing of User’s personal data.
         </h4>
-        <h4 class="fs-4 fw-normal ">
+        <h4 className="fs-4 fw-normal ">
           We are the Controller and Processor, in accordance with the
           international data protection regulations. The User can find all the
           relevant legal details relating to data Protection in the Privacy
