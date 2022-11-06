@@ -4,7 +4,6 @@ import WhyChaiDEX from "./WhyChaiDEX";
 import GetyourChait from "./GetyourChait";
 import Roadmap from "./Roadmap";
 import LastInfo from "./LastInfo";
-import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -48,7 +47,7 @@ const Home = () => {
       <GetyourChait />
       <Roadmap />
       <LastInfo />
-      <Footer />
+
     </>
   );
 };
