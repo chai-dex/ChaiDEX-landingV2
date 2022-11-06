@@ -9,7 +9,7 @@ const Navbar = () => {
        
      
         <h2 class="fw-bold display-5 " style={{alignContent:'center',alignItems:'center' ,justifyContent:'center'}}  >
-        <img src="/assets/chaiDEXlogo.png"  style={{marginRight:"10px"}} />      
+        <img src="/assets/chaiDEXlogo.png" alt="..."  style={{marginRight:"10px"} } />      
            ChaiDEX
           <span class="fw-bold display-5" style={{ color: " #ff902b" }}>
             .
