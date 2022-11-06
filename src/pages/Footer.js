@@ -54,12 +54,12 @@ const Footer = () => {
               <a href="/terms" class="text-muted mb-4">
                 Terms and Conditions
               </a>
-              <a href="/src/pages/WhyChaiDEX.js" class="text-muted mb-4">
+              <a href="/privacypolicy" class="text-muted mb-4">
                 Privacy
               </a>
             </div>
             <div class="row">
-              <a href="/src/pages/Home.js" class="text-muted">
+              <a href="/riskdisclosure" class="text-muted">
                 Risk Disclosure
               </a>
             </div>

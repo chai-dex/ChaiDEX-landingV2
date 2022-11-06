@@ -1,0 +1,57 @@
+.privacyPolicyB {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 44px;
+  display: inline-block;
+  width: 990px;
+}
+.thisPrivacyPolicy {
+  margin-block-start: 0;
+  margin-block-end: 24px;
+}
+.ifYouDo {
+  margin: 0;
+}
+.thisPrivacyPolicyWillExpla {
+  position: relative;
+  font-size: var(--font2-size);
+  line-height: 32px;
+  display: inline-block;
+  width: 990px;
+}
+.dataSubjectOr {
+  margin-bottom: 0;
+}
+.dataSubjectOrDataPrincipal {
+  margin: 0;
+  padding-left: var(--padding-md);
+}
+.ourDataProtectionPolicySho {
+  position: relative;
+  font-size: var(--font-inherit);
+  line-height: 32px;
+  font-family: var(--font-inherit);
+  display: inline-block;
+  width: 990px;
+}
+.frameDiv {
+  position: absolute;
+  top: 154px;
+  left: 225px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.PrivacyPolicy {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 14828px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--display-md-bold-size);
+  color: var(--color-black);
+  font-family: var(--font13);
+}
