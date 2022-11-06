@@ -1,5 +1,5 @@
 import styles from "./RiskDisclosure.css";
-import React, { Component } from 'react'
+import React  from 'react'
 const RiskDisclosure= () => {
   return (
     <div className={styles.RiskDisclosure} style={{marginTop:'45px'}}>
