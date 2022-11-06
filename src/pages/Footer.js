@@ -51,17 +51,17 @@ const Footer = () => {
         <div class="col-md-2 col-sm-12">
           <div class="col">
             <div class="row">
-              <a href="/terms" class="text-muted mb-4">
+              <link href="/terms" class="text-muted mb-4">
                 Terms and Conditions
-              </a>
-              <a href="/privacypolicy" class="text-muted mb-4">
+              </link>
+              <link href="/privacypolicy" class="text-muted mb-4">
                 Privacy
-              </a>
+              </link>
             </div>
             <div class="row">
-              <a href="/riskdisclosure" class="text-muted">
+              <link href="/riskdisclosure" class="text-muted">
                 Risk Disclosure
-              </a>
+              </link>
             </div>
           </div>
         </div>
