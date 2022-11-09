@@ -110,7 +110,7 @@ const Navbar = () => {
                   <li>
                     <a
                       className="dropdown-item"
-                      href="/whitepapers/ChaiDEX Whitepaper-v1.pdf"
+                      href="/public/whitepapers/ChaiDEXWhitepaper-v1.pdf"
                       download
                     >
                       ChaiDEX
@@ -119,7 +119,7 @@ const Navbar = () => {
                   <li>
                     <a
                       className="dropdown-item"
-                      href="/whitepapers/Chai Wallet Whitepaper-v1.pdf "
+                      href="/public/whitepapers/ChaiWalletWhitepaper-v1.pdf "
                       download
                     >
                       ChaiWallet
@@ -128,7 +128,7 @@ const Navbar = () => {
                   <li>
                     <a
                       className="dropdown-item"
-                      href="/whitepapers/ChaiTWhitepaper-v1.pdf"
+                      href="/public/whitepapers/ChaiTWhitepaperv-1.pdf"
                       download
                     >
                       ChaiT
