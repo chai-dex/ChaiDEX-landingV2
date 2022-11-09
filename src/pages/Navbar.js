@@ -47,8 +47,7 @@ const Navbar = () => {
               className="btn-close"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
-            >
-            </button>
+            ></button>
           </div>
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -112,8 +111,6 @@ const Navbar = () => {
                     <a
                       className="dropdown-item"
                       href="/whitepapers/ChaiDEX Whitepaper-v1.pdf"
-                      target="_blank"
-                      rel="noreferrer"
                       download
                     >
                       ChaiDEX
@@ -123,8 +120,6 @@ const Navbar = () => {
                     <a
                       className="dropdown-item"
                       href="/whitepapers/Chai Wallet Whitepaper-v1.pdf "
-                      target="_blank"
-                      rel="noreferrer"
                       download
                     >
                       ChaiWallet
@@ -134,8 +129,6 @@ const Navbar = () => {
                     <a
                       className="dropdown-item"
                       href="/whitepapers/ChaiTWhitepaper-v1.pdf"
-                      target="_blank"
-                      rel="noreferrer"
                       download
                     >
                       ChaiT
