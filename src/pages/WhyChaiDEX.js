@@ -46,11 +46,10 @@ const WhyChaiDEX = () => {
                     alt="..."
                   />
                 </div>
-                <h5 className="card-title fw-semibold">Trade and Earn</h5>
+                <h5 className="card-title fw-semibold">Multi-Chain Wallet</h5>
                 <p className="fs-6 lh-sm">
-                  Trade multiple times without worrying about gas fees, and
-                  increase your profit by trading straight with INRC Stable Coin
-                  which removes any conversion complexity
+                  Access to top Blockchains/ Protocol like Ethereum, Binance
+                  Smart Chain, Polygon, etc. with just single wallet
                 </p>
               </div>
             </div>
@@ -68,11 +67,11 @@ const WhyChaiDEX = () => {
                     alt="..."
                   />
                 </div>
-                <h5 className="card-title fw-semibold">Trade and Earn</h5>
+                <h5 className="card-title fw-semibold">Know Your Pool </h5>
                 <p className="fs-6 lh-sm">
-                  Trade multiple times without worrying about gas fees, and
-                  increase your profit by trading straight with INRC Stable Coin
-                  which removes any conversion complexity
+                  Simplifies DEX trading by performing transactions at real-time
+                  market prices. Uses publicly viewable smart contracts to keep
+                  security audit information transparent.
                 </p>
               </div>
             </div>

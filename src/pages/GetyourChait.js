@@ -28,7 +28,7 @@ const GetyourChait = () => {
           Get ChaiT airdropped to your wallet and start trading!
         </div>
         <Link className="custom-btn  fw-bold" href="/">
-          Clain Yours now
+          Claim Yours now
         </Link>
       </div>
       <div
