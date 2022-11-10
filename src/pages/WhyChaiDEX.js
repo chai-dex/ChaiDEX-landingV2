@@ -13,9 +13,7 @@ const WhyChaiDEX = () => {
         </span>
       </div>
       <div className="row container my-5 py-3 d-flex justify-content-center align-content-center">
-        <div
-          className="col-sm-12 col-md-4 d-flex justify-content-center align-content-center "
-        >
+        <div className="col-sm-12 col-md-4 d-flex justify-content-center align-content-center ">
           <div className="card text-center rounded-3">
             <div className="card-body">
               <div className="image-container">
