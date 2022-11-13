@@ -12,31 +12,29 @@ const WhyChaiDEX = () => {
           .
         </span>
       </div>
-      <div className="row container my-5 py-3 ">
-        <div className="col-sm-12 col-md-4  ">
-          <div className="container w-100 d-flex justify-content-center align-content-center">
-            <div className="card text-center rounded-3">
-              <div className="card-body">
-                <div className="image-container">
-                  <img
-                    src="/assets/trade-earn.png"
-                    className="rounded mx-auto d-block"
-                    alt="..."
-                  />
-                </div>
-                <h5 className="card-title fw-semibold">Trade and Earn</h5>
-                <p className="fs-6 lh-sm">
-                  Trade multiple times without worrying about gas fees, and
-                  increase your profit by trading straight with INRC Stable Coin
-                  which removes any conversion complexity
-                </p>
+      <div className="row container my-5 py-3 d-flex justify-content-center align-content-center">
+        <div className="col-sm-12 col-md-4 d-flex justify-content-center align-content-center ">
+          <div className="card text-center rounded-3">
+            <div className="card-body">
+              <div className="image-container">
+                <img
+                  src="/assets/trade-earn.png"
+                  className="rounded mx-auto d-block"
+                  alt="..."
+                />
               </div>
+              <h5 className="card-title fw-semibold">Trade and Earn</h5>
+              <p className="fs-6 lh-sm">
+                Trade multiple times without worrying about gas fees, and
+                increase your profit by trading straight with INRC Stable Coin
+                which removes any conversion complexity
+              </p>
             </div>
           </div>
         </div>
 
         <div className="col-sm-12 col-md-4">
-          <div className="container w-100 d-flex justify-content-center align-content-center">
+          <div className="container w-100">
             <div className="card text-center rounded-3">
               <div className="card-body">
                 <div className="image-container">
@@ -56,24 +54,22 @@ const WhyChaiDEX = () => {
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-4">
-          <div className="container w-100 d-flex justify-content-center align-content-center">
-            <div className="card text-center rounded-3">
-              <div className="card-body">
-                <div className="image-container">
-                  <img
-                    src="/assets/pool.png"
-                    className="rounded mx-auto d-block"
-                    alt="..."
-                  />
-                </div>
-                <h5 className="card-title fw-semibold">Know Your Pool </h5>
-                <p className="fs-6 lh-sm">
-                  Simplifies DEX trading by performing transactions at real-time
-                  market prices. Uses publicly viewable smart contracts to keep
-                  security audit information transparent.
-                </p>
+        <div className="col-sm-12 col-md-4 d-flex justify-content-center align-content-center">
+          <div className="card text-center rounded-3">
+            <div className="card-body">
+              <div className="image-container">
+                <img
+                  src="/assets/pool.png"
+                  className="rounded mx-auto d-block"
+                  alt="..."
+                />
               </div>
+              <h5 className="card-title fw-semibold">Know Your Pool </h5>
+              <p className="fs-6 lh-sm">
+                Simplifies DEX trading by performing transactions at real-time
+                market prices. Uses publicly viewable smart contracts to keep
+                security audit information transparent.
+              </p>
             </div>
           </div>
         </div>

@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
+import Modal from "react-bootstrap/Modal";
 
 const ListCoin = () => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <section
       className="about-us-section container-fluid  mt:5 bg-white"
@@ -36,20 +44,59 @@ const ListCoin = () => {
             className=" align-items-center justiyf-content-center row"
             style={{ marginBottom: "20px" }}
           >
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSevwgfSOU9tFQ0i-ZUHagdZGh7Vm58blLJoUD2DZMVntAbbgw/viewform"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <a
+            <div target="_blank" rel="noreferrer">
+              {/* <a
                 className="custom-btn "
                 href="https://docs.google.com/forms/d/e/1FAIpQLSevwgfSOU9tFQ0i-ZUHagdZGh7Vm58blLJoUD2DZMVntAbbgw/viewform"
                 target="_blank"
                 rel="noreferrer"
               >
                 Get more Info
-              </a>
-            </a>
+              </a> */}
+              <Button className="" variant="light" onClick={handleShow}>
+                Get more Info
+              </Button>
+            </div>
+            <Modal
+              size="lg"
+              aria-labelledby="contained-modal-title-vcenter"
+              centered
+              show={show}
+              onHide={handleClose}
+            >
+              <Modal.Header closeButton>
+                <Modal.Title>Let us reach out to you</Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <Form>
+                  <Form.Group
+                    className="mb-3"
+                    controlId="exampleForm.ControlInput1"
+                  >
+                    <Form.Label>Email address</Form.Label>
+                    <Form.Control
+                      type="email"
+                      placeholder="name@example.com"
+                      autoFocus
+                    />
+                  </Form.Group>
+                </Form>
+              </Modal.Body>
+              <Modal.Footer>
+                <Button variant="secondary" onClick={handleClose}>
+                  Close
+                </Button>
+                <Button
+                  variant="primary"
+                  onClick={handleClose}
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSevwgfSOU9tFQ0i-ZUHagdZGh7Vm58blLJoUD2DZMVntAbbgw/viewform"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Continue
+                </Button>
+              </Modal.Footer>
+            </Modal>
           </div>
         </div>
       </div>
