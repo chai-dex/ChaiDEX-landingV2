@@ -3,7 +3,7 @@ import React from "react";
 const ListCoin = () => {
   return (
     <section
-      className="about-us-section container-fluid px-2 mt:5 bg-white"
+      className="about-us-section container-fluid  mt:5 bg-white"
       id="abt-us"
       style={{
         marginTop: "0px",
@@ -20,9 +20,9 @@ const ListCoin = () => {
           maxWidth: "800px",
         }}
       >
-        <div className="text-center d-flex align-items-center justify-content-center row">
+        <div className="text-center d-flex align-items-center justify-content-center flex-column">
           <div
-            className="about-us-card align-items-start"
+            className="about-us-card align-items-start my-2"
             style={{ marginTop: "5px" }}
           >
             <h1 className=" fw-bold align-items-start  text-white">

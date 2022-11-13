@@ -56,14 +56,23 @@ const Navbar = () => {
                   Home
                 </a>
               </li>
-              <li className="nav-item h5 me-3">
+              {/* <li className="nav-item h5 me-3">
                 <a className="nav-a" href="#why-us">
                   Why Us
                 </a>
+              </li> */}
+              <li className="nav-item h5 me-3">
+                <a className="nav-a" href="https://exchange.chaidex.com/app/P2P"  target="_blank"
+                rel="noreferrer">
+
+                  P2P
+                </a>
               </li>
               <li className="nav-item h5 me-3">
-                <a className="nav-a" href="#chai-p2p">
-                  P2P
+                <a className="nav-a" href="https://exchange.chaidex.com/app/QuickBuy"  target="_blank"
+                rel="noreferrer">
+
+                  QuickBuy
                 </a>
               </li>
               <li className="nav-item dropdown  h5">
@@ -94,7 +103,7 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item dropdown  h5">
+              <li className="nav-item dropdown  h5  ">
                 <a
                   className="nav-a dropdown-toggle"
                   href="/"

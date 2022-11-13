@@ -142,9 +142,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="mb-3 col-md-4 text-center col-sm-12">
-            A Product of
+            A Product of 
             <span className="fw-bold">
-              ChaiDex
+                ChaiDex
               <span className="fw-bold" style={{ color: "#ff902b" }}>
                 .
               </span>
