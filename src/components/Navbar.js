@@ -52,7 +52,7 @@ const Navbar = () => {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item h5 me-3">
-                <a className="nav-a" aria-current="page" href="/">
+                <a className="nav-a text-muted" aria-current="page" href="/">
                   Home
                 </a>
               </li>
@@ -61,15 +61,15 @@ const Navbar = () => {
                   Why Us
                 </a>
               </li> */}
-              <li className="nav-item h5 me-3">
-                <a className="nav-a" href="https://exchange.chaidex.com/app/P2P"  target="_blank"
+              <li className="nav-item h5 me-3 ">
+                <a className="nav-a text-muted" href="https://exchange.chaidex.com/app/P2P"  target="_blank"
                 rel="noreferrer">
 
                   P2P
                 </a>
               </li>
               <li className="nav-item h5 me-3">
-                <a className="nav-a" href="https://exchange.chaidex.com/app/QuickBuy"  target="_blank"
+                <a className="nav-a text-muted" href="https://exchange.chaidex.com/app/QuickBuy"  target="_blank"
                 rel="noreferrer">
 
                   QuickBuy
@@ -77,7 +77,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item dropdown  h5">
                 <a
-                  className="nav-a dropdown-toggle"
+                  className="nav-a dropdown-toggle text-muted"
                   href="/"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -87,7 +87,7 @@ const Navbar = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <a className="dropdown-item " href="/">
                       Bounty
                     </a>
                   </li>
@@ -105,7 +105,8 @@ const Navbar = () => {
               </li>
               <li className="nav-item dropdown  h5  ">
                 <a
-                  className="nav-a dropdown-toggle"
+                  className="nav-a dropdown-toggle text-muted "
+                  style={{marginLeft:'15px'}}
                   href="/"
                   role="button"
                   data-bs-toggle="dropdown"

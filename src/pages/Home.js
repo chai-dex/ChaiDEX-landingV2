@@ -1,9 +1,10 @@
 import React from "react";
-import ListCoin from "./ListCoin";
-import WhyChaiDEX from "./WhyChaiDEX";
-import GetyourChait from "./GetyourChait";
-import Roadmap from "./Roadmap";
-import LastInfo from "./LastInfo";
+import ListCoin from "../components/ListCoin";
+import WhyChaiDEX from "../components/WhyChaiDEX";
+import GetyourChait from "../components/GetyourChait";
+import Roadmap from "../components/Roadmap";
+import LastInfo from "../components/LastInfo";
+import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -48,6 +49,7 @@ const Home = () => {
       <GetyourChait />
       <Roadmap />
       <LastInfo />
+      {/* <Footer /> */}
       
     </>
   );

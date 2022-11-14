@@ -1,15 +1,16 @@
 import React from "react";
-import Navbar from "./pages/Navbar";
+import Navbar from "./components/Navbar";
 import router from "./router";
 import { RouterProvider } from "react-router-dom";
-import Footer from "./pages/Footer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
       <div className="container" style={{justifyContent:'center',alignItems:'center', alignContent:'center'}}>
         <Navbar />
-        <RouterProvider router={router} />
         
+        <RouterProvider router={router} />
+        <Footer/>
       </div>
   );
 }

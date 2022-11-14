@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import TermsandConditions from "./pages/TermsandConditions";
 import RiskDisclosure from "./pages/RiskDIsclosure";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Footer from "./components/Footer";
 const router = createBrowserRouter([
   //define route paths and elements here in this format
   {
@@ -26,6 +27,8 @@ const router = createBrowserRouter([
     path: "/privacypolicy",
     element: <PrivacyPolicy />,
   },
+  
+
 
 ]);
 
