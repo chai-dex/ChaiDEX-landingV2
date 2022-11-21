@@ -62,16 +62,22 @@ const Navbar = () => {
                 </a>
               </li> */}
               <li className="nav-item h5 me-3 ">
-                <a className="nav-a text-muted" href="https://exchange.chaidex.com/app/P2P"  target="_blank"
-                rel="noreferrer">
-
+                <a
+                  className="nav-a text-muted"
+                  href="https://exchange.chaidex.com/p2p/buy"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   P2P
                 </a>
               </li>
               <li className="nav-item h5 me-3">
-                <a className="nav-a text-muted" href="https://exchange.chaidex.com/app/QuickBuy"  target="_blank"
-                rel="noreferrer">
-
+                <a
+                  className="nav-a text-muted"
+                  href="https://exchange.chaidex.com/stablemint"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   QuickBuy
                 </a>
               </li>
@@ -106,7 +112,7 @@ const Navbar = () => {
               <li className="nav-item dropdown  h5  ">
                 <a
                   className="nav-a dropdown-toggle text-muted "
-                  style={{marginLeft:'15px'}}
+                  style={{ marginLeft: "15px" }}
                   href="/"
                   role="button"
                   data-bs-toggle="dropdown"
