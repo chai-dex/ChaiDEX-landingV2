@@ -155,7 +155,7 @@ const Navbar = () => {
               <li className="nav-item h5 me-3 mx-4">
                 <a href="/">
                   <button type="button" className="btn btn-primary">
-                    ChaiDEX Wallet
+                    Chai Wallet
                   </button>
                 </a>
               </li>
