@@ -26,7 +26,7 @@ const Home = () => {
               </div>
               <Link to="/">
                 <button type="button" className="btn btn-lg btn-primary ">
-                  ChaiDEX Wallet
+                  ChaiWallet
                 </button>
               </Link>
             </div>
