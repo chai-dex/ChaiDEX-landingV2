@@ -2,12 +2,10 @@ import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
-import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
 import {
   Box,
   Button,
   Container,
-  Grid,
   Stack,
   Typography,
   useMediaQuery,
@@ -18,7 +16,6 @@ import { useLocation, useNavigate } from "react-router-dom";
 const MenuBar = ({ toggleMode }) => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
-  const location = useLocation();
 
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
