@@ -1,7 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./Routes/HomePage";
-import NotFoundPage from "./Routes/NotFoundPage";
 import CssBaseline from "@mui/material/CssBaseline";
 import { createTheme } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
