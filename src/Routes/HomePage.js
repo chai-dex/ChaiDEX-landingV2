@@ -1,12 +1,25 @@
 import React from "react";
 import { Container, Box } from "@mui/system";
-import { Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import Button from "@mui/material/Button";
-import useMediaQuery from "@mui/material/useMediaQuery";
 import ListYourCoin from "../Components/ListYourCoin";
 import WhyChaidex from "../Components/WhyChaidex";
+import Paper from "@mui/material/Paper";
+import TradeStables from "../Components/TradeStables"
+import GetYourChait from "../Components/GetYourChait";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import { styled } from "@mui/material/styles";
 const HomePage = () => {
+  const Item = styled(Paper)(({ theme }) => ({
+    backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
+    ...theme.typography.body2,
+    padding: theme.spacing(1),
+    textAlign: "center",
+    color: theme.palette.text.secondary,
+  }));
+  
   const isMobile = useMediaQuery("(max-width:600px)");
+
   return (
     <Container
       sx={{
@@ -19,39 +32,56 @@ const HomePage = () => {
         mt: "5px",
       }}
     >
-      <Box sx={{ display:'flex',  flexDirection:{sm:"row"}, justifyContent: "flex-end"}}>
-        <Box
-          sx={{
-            display:'flex',
-            justifyContent: "center",
-            flexDirection: "column",
-            
-          }}
-        >
-          <Typography variant={isMobile ? "dmdSmbd" : "dlgSmbd"}>
-            Low gas fees No wrap tokens V3 DEX for the P2P Trade.
-          </Typography>
-          <Typography variant={isMobile ? "tsmReg" : "dxsReg"}>
-            Pick the best rate, low gas fees & high transaction speed for your
-            trade.
-          </Typography>
-          <Box>
-            <Button sx={{ mt: "5px" }} variant="contained">
-              ChaiWallet
-            </Button>
-          </Box>
-        </Box>
-        <Box>
-          {isMobile ? (
-            <img src="/assets/hero mobile.png" />
-          ) : (
-            <img src="/assets/hero image.png" alt="hero image pc" />
-          )}
-        </Box>
-      </Box>
-            <Box sx={{mt:'55px'}}>
-            <WhyChaidex/>
+      <Grid container spacing={3} sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "flex-end",
+            flexGrow: 1,
+          }}>
+        
+          
+     
+          <Grid item xs={12} sm={6}>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                flexDirection: "column",
+                flexGrow: 1,
+              }}
+            >
+              <Typography variant={isMobile ? "dmdSmbd" : "dlgSmbd"}>
+                Low gas fees No wrap tokens V3 DEX for the P2P Trade.
+              </Typography>
+              <Typography variant={isMobile ? "tsmReg" : "dxsReg"}>
+                Pick the best rate, low gas fees & high transaction speed for
+                your trade.
+              </Typography>
+              <Box>
+                <Button sx={{ mt: "5px" }} variant="contained">
+                  ChaiWallet
+                </Button>
+              </Box>
             </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6}>
+            <Box sx={{display:"flex",justifyContent:'flex-start'}}>
+              {isMobile ? (
+                <img src="/assets/hero mobile.png" />
+              ) : (
+                <img src="/assets/hero image.png" alt="hero image pc" />
+              )}
+            </Box>
+          </Grid>
+       
+      </Grid>
+      <Box sx={{ mt: "55px" }}>
+        <ListYourCoin/>
+        <WhyChaidex />
+        <TradeStables/>
+        <GetYourChait/>
+      </Box>
     </Container>
   );
 };
