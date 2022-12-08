@@ -16,7 +16,7 @@ const GetYourChait = () => {
     color: theme.palette.text.secondary,
   }));
   return (
-    <Container>
+    
       <Card>
         <Grid
           container
@@ -26,10 +26,11 @@ const GetYourChait = () => {
             alignItems: "center",
             justifyContent: "flex-end",
             flexGrow: 1,
+            mt:'10px'
           }}
         >
           <Grid item xs={12} sm={6}>
-            <Box sx={{display:"flex",flexDirection:'column',justifyContent:'center',alignItems:"center"}}>
+            <Box maxHeight={"100px"} maxWidth={"800px"} sx={{display:"flex",flexDirection:'column',justifyContent:'center',alignItems:"center"}}>
               <Typography variant={isMobile ? "dmdSmbd" : "dlgSmbd"}>
                 Get Your ChaiT Now !
               </Typography>
@@ -51,7 +52,8 @@ const GetYourChait = () => {
           </Grid>
         </Grid>
       </Card>
-    </Container>
+    
+      
   );
 };
 
