@@ -79,17 +79,18 @@ const MenuBar = ({ toggleMode }) => {
             <Button color="inherit">
               <Typography variant="tmdMed">Home</Typography>
             </Button>
-            <Button color="inherit">
-              <Typography variant="tmdMed">P2P</Typography>
-            </Button>
-            <Button color="inherit">
-              <Typography variant="tmdMed">QuickBuy</Typography>
-            </Button>
+            
             <Button color="inherit">
               <Typography variant="tmdMed">Activities</Typography>
             </Button>
             <Button color="inherit">
               <Typography variant="tmdMed">WhitePapers</Typography>
+            </Button>
+            <Button variant="outlined" color="inherit">
+              <Typography variant="tmdMed">App</Typography>
+            </Button>
+            <Button variant="contained" color="inherit">
+              <Typography variant="tmdMed">ChaiWallet</Typography>
             </Button>
           </Stack>
         )}

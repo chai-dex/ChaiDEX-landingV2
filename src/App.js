@@ -119,7 +119,7 @@ function App() {
             fontSize: "3.75rem",
             fontWeight: 600,
             letterSpacing: "-0.02em",
-            lineHeight: "4.625",
+            lineHeight: "1.625",
           },
           dxlBd: {
             fontFamily: "Inter",
