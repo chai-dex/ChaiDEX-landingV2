@@ -4,11 +4,12 @@ import { Grid, Typography } from "@mui/material";
 import Button from "@mui/material/Button";
 import ListYourCoin from "../Components/ListYourCoin";
 import WhyChaidex from "../Components/WhyChaidex";
-import Paper from "@mui/material/Paper";
 import TradeStables from "../Components/TradeStables";
 import GetYourChait from "../Components/GetYourChait";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import { styled } from "@mui/material/styles";
+
+import Footer from "./../Components/Footer";
+
 const HomePage = () => {
   const isMobile = useMediaQuery("(max-width:600px)");
   return (
@@ -76,6 +77,7 @@ const HomePage = () => {
         <WhyChaidex />
         <TradeStables />
         <GetYourChait />
+        <Footer />
       </Box>
     </Container>
   );

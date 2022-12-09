@@ -119,7 +119,10 @@ const MenuBar = ({ toggleMode, handleDrawerToggle, navigate, mobileOpen }) => {
               </MenuItem>
             </Menu>
             <Button variant="outlined" color="success">
+              <a href="https://exchange.chaidex.com/">
+
               <Typography variant="tmdMed">App</Typography>
+              </a>
             </Button>
             <Button variant="contained" color="primary">
               <Typography variant="tmdMed">ChaiWallet</Typography>
