@@ -34,20 +34,18 @@ const Footer = () => {
             </Box>
             <Grid item xs={12} sm={3}>
               <Box>
-                <Box>
-                  <Link underline="none" href="/">
+                <Box sx={{ my: 2 }}>
+                  <a href="/"  >
                     Home
-                  </Link>
+                  </a>
                 </Box>
-                <Box>
-                  <Link underline="none" href="/">
-                    App
-                  </Link>
+                <Box sx={{ my: 2 }}>
+                  <a href="https://exchange.chaidex.com/" target="_blank">App</a>
                 </Box>
-                <Box>
-                  <Link underline="none" href="/">
+                <Box sx={{ my: 2 }}>
+                  <a href="https://wallet.chaidex.com/" target="_blank">
                     ChaiWallet
-                  </Link>
+                  </a>
                 </Box>
               </Box>
             </Grid>
@@ -55,49 +53,46 @@ const Footer = () => {
 
             <Grid item xs={12} sm={3}>
               <Box>
-                <Box>
-                  <Link underline="none" href="/">
+                <Box sx={{ my: 2 }}>
+                <a href="/"  target="_blank">
                     Airdrop
-                  </Link>
+                  </a>
                 </Box>
-                <Box>
-                  <Link underline="none" href="/">
+                <Box sx={{ my: 2 }}>
+                <a href="/"  target="_blank">
                     Blogs
-                  </Link>
+                  </a>
                 </Box>
-                <Box>
-                  <Link underline="none" href="/">
+                <Box sx={{ my: 2 }}>
+                <a href="/"  target="_blank">
                     Subscribe
-                  </Link>
+                  </a>
                 </Box>
               </Box>
             </Grid>
             {/* 3 set */}
             <Grid item xs={12} sm={3}>
-              <Box>
-                <Link underline="none" href="/">
-                  Terms and Conditions
-                </Link>
+              <Box sx={{ my: 2 }}>
+                <a href="/public/assets/Terms & Conditions.pdf">Terms and Conditions</a>
               </Box>
-              <Box>
-                <Link underline="none" href="/">
+              <Box sx={{ my: 2 }}>
+              <a href="/public/assets/Privacy Policy.pdf"  target="_blank">
                   Privacy
-                </Link>
+                </a>
               </Box>
-              <Box>
-                <Link underline="none" href="/">
+              <Box sx={{ my: 2 }}>
+              <a href="/assets/Responsible Risk Disclosure Policy.pdf"  target="_blank">
                   Risk Disclosure
-                </Link>
+                </a>
               </Box>
             </Grid>
           </Grid>
-          <Divider sx={{mt:"20px"}}/>
+          <Divider sx={{ mt: "20px" }} />
           <Box
-
             textAlign="center"
-            sx={{ display: "flex", justifyContent: "ccenter", }}
+            sx={{ display: "flex", justifyContent: "ccenter" }}
             pt={{ xs: 5, s: 10 }}
-            pb={{ xs: 5, sm: 0}}
+            pb={{ xs: 5, sm: 0 }}
           >
             <Grid container spacing={5}>
               <Grid item xs={12} sm={3}>
@@ -109,13 +104,13 @@ const Footer = () => {
                   }}
                 >
                   <Stack direction="row" spacing={2}>
-                    <ButtonBase>
+                  <a href="https://t.me/+Bac1ly5TZ_w3YmRl"  target="_blank">
                       <Avatar
                         sx={{ border: "1px solid " }}
                         alt="telegram"
                         src="/assets/telegram_whiet.png"
                       />
-                    </ButtonBase>
+                    </a>
                     <ButtonBase>
                       <Avatar
                         sx={{ border: "1px solid " }}
@@ -123,13 +118,15 @@ const Footer = () => {
                         src="/assets/instagram_white.png "
                       />
                     </ButtonBase>
-                    <ButtonBase>
+                  
+                    <a href="https://twitter.com/chaidexHQ"  target="_blank">
                       <Avatar
                         sx={{ border: "1px solid " }}
                         alt="twitter"
                         src="/assets/twitter-white.png"
                       />
-                    </ButtonBase>
+                      </a>
+                   
                   </Stack>
                 </Box>
               </Grid>

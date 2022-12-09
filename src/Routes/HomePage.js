@@ -52,7 +52,7 @@ const HomePage = () => {
             </Typography>
             <Box>
               <Button sx={{ mt: "5px" }} variant="contained">
-                ChaiWallet
+                Chai Wallet
               </Button>
             </Box>
           </Box>

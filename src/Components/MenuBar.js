@@ -150,7 +150,7 @@ const MenuBar = ({ toggleMode, handleDrawerToggle, navigate, mobileOpen }) => {
               </a>
             </Button>
             <Button variant="contained" color="primary">
-              <Typography variant="tmdMed">ChaiWallet</Typography>
+              <Typography variant="tmdMed">Chai Wallet</Typography>
             </Button>
           </Stack>
         )}
