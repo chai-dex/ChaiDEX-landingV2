@@ -150,7 +150,9 @@ const MenuBar = ({ toggleMode, handleDrawerToggle, navigate, mobileOpen }) => {
               </a>
             </Button>
             <Button variant="contained" color="primary">
+            <a href="https://wallet.chaidex.com/" target="_blank">
               <Typography variant="tmdMed">Chai Wallet</Typography>
+              </a>
             </Button>
           </Stack>
         )}

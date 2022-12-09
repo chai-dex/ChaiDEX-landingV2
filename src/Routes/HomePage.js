@@ -52,7 +52,9 @@ const HomePage = () => {
             </Typography>
             <Box>
               <Button sx={{ mt: "5px" }} variant="contained">
-                Chai Wallet
+              <a href="https://wallet.chaidex.com/" target="_blank">
+              <Typography>Chai Wallet</Typography>  
+                </a>
               </Button>
             </Box>
           </Box>

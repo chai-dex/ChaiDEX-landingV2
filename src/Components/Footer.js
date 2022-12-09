@@ -44,7 +44,7 @@ const Footer = () => {
                 </Box>
                 <Box sx={{ my: 2 }}>
                   <a href="https://wallet.chaidex.com/" target="_blank">
-                    ChaiWallet
+                    Chai Wallet
                   </a>
                 </Box>
               </Box>
