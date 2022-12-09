@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 import ListYourCoin from "../Components/ListYourCoin";
 import WhyChaidex from "../Components/WhyChaidex";
 import Paper from "@mui/material/Paper";
-import TradeStables from "../Components/TradeStables"
+import TradeStables from "../Components/TradeStables";
 import GetYourChait from "../Components/GetYourChait";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { styled } from "@mui/material/styles";
@@ -17,7 +17,7 @@ const HomePage = () => {
     textAlign: "center",
     color: theme.palette.text.secondary,
   }));
-  
+
   const isMobile = useMediaQuery("(max-width:600px)");
 
   return (
@@ -32,55 +32,55 @@ const HomePage = () => {
         mt: "5px",
       }}
     >
-      <Grid container spacing={3} sx={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "flex-end",
-            flexGrow: 1,
-          }}>
-        
-          
-     
-          <Grid item xs={12} sm={6}>
-            <Box
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                flexDirection: "column",
-                flexGrow: 1,
-              }}
-            >
-              <Typography variant={isMobile ? "dmdSmbd" : "dlgSmbd"}>
-                Low gas fees No wrap tokens V3 DEX for the P2P Trade.
-              </Typography>
-              <Typography variant={isMobile ? "tsmReg" : "dxsReg"}>
-                Pick the best rate, low gas fees & high transaction speed for
-                your trade.
-              </Typography>
-              <Box>
-                <Button sx={{ mt: "5px" }} variant="contained">
-                  ChaiWallet
-                </Button>
-              </Box>
+      <Grid
+        container
+        sx={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "flex-end",
+          flexGrow: 1,
+          width: "100%",
+        }}
+      >
+        <Grid item xs={12} sm={6}>
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              flexDirection: "column",
+              flexGrow: 1,
+            }}
+          >
+            <Typography variant={isMobile ? "dmdSmbd" : "dlgSmbd"}>
+              Low gas fees No wrap tokens V3 DEX for the P2P Trade.
+            </Typography>
+            <Typography variant={isMobile ? "tsmReg" : "dxsReg"}>
+              Pick the best rate, low gas fees & high transaction speed for your
+              trade.
+            </Typography>
+            <Box>
+              <Button sx={{ mt: "5px" }} variant="contained">
+                ChaiWallet
+              </Button>
             </Box>
-          </Grid>
+          </Box>
+        </Grid>
 
-          <Grid item xs={12} sm={6}>
-            <Box sx={{display:"flex",justifyContent:'flex-start'}}>
-              {isMobile ? (
-                <img src="/assets/hero mobile.png" />
-              ) : (
-                <img src="/assets/hero image.png" alt="hero image pc" />
-              )}
-            </Box>
-          </Grid>
-       
+        <Grid item xs={12} sm={6}>
+          <Box sx={{ display: "flex", justifyContent: "flex-start" }}>
+            {isMobile ? (
+              ""
+            ) : (
+              <img src="/assets/hero image.png" alt="hero image pc" />
+            )}
+          </Box>
+        </Grid>
       </Grid>
       <Box sx={{ mt: "55px" }}>
-        <ListYourCoin/>
+        <ListYourCoin />
         <WhyChaidex />
-        <TradeStables/>
-        <GetYourChait/>
+        <TradeStables />
+        <GetYourChait />
       </Box>
     </Container>
   );

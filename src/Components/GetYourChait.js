@@ -16,33 +16,44 @@ const GetYourChait = () => {
     color: theme.palette.text.secondary,
   }));
   return (
-    
-      <Card>
+    <Container sx={{ maxWidth: isMobile ? "90vw" : "auto-width" }}>
+      <Card sx={{ p: 2 }}>
         <Grid
           container
-          spacing={3}
           sx={{
             display: "flex",
             alignItems: "center",
             justifyContent: "flex-end",
             flexGrow: 1,
-            mt:'10px'
+            mt: "10px",
           }}
         >
           <Grid item xs={12} sm={6}>
-            <Box maxHeight={"100px"} maxWidth={"800px"} sx={{display:"flex",flexDirection:'column',justifyContent:'center',alignItems:"center"}}>
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
               <Typography variant={isMobile ? "dmdSmbd" : "dlgSmbd"}>
                 Get Your ChaiT Now !
               </Typography>
-              <Typography sx={{mt:"5px"}} variant={isMobile ? "tsmReg" : "tlgReg"}>
+              <Typography
+                sx={{ mt: "5px" }}
+                variant={isMobile ? "tsmReg" : "tlgReg"}
+              >
                 Get ChaiT airdropped to your wallet and start trading!
               </Typography>
-              <Button sx={{mt:"15px"}} variant="contained">Claim yours Now</Button>
+              <Button sx={{ mt: "15px" }} variant="contained">
+                Claim yours Now
+              </Button>
             </Box>
           </Grid>
 
           <Grid item xs={12} sm={6}>
-            <Box sx={{ display: "flex", justifyContent: "center" }}>
+            <Box sx={{ display: "flex", justifyContent: "center", mt: "10px" }}>
               {isMobile ? (
                 <img src="assets/wallet_mobile.png" alt="hero image pc" />
               ) : (
@@ -52,8 +63,7 @@ const GetYourChait = () => {
           </Grid>
         </Grid>
       </Card>
-    
-      
+    </Container>
   );
 };
 
