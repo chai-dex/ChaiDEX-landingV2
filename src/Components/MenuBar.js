@@ -6,6 +6,9 @@ import {
   Box,
   Button,
   Container,
+  Link,
+  Menu,
+  MenuItem,
   Stack,
   Typography,
   useMediaQuery,
@@ -16,6 +19,14 @@ import SideDrawer from "./SideDrawer";
 const MenuBar = ({ toggleMode, handleDrawerToggle, navigate, mobileOpen }) => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+
+  const [whitepaper, setWhitePaper] = React.useState(null);
+  const WPOpen = Boolean(whitepaper);
+  const handleWhitePaperClick = (e) => setWhitePaper(e.currentTarget);
+  const handleWhitePaperClose = (event) => {
+    setWhitePaper(null);
+  };
+
   return (
     <Toolbar
       sx={{
@@ -83,13 +94,34 @@ const MenuBar = ({ toggleMode, handleDrawerToggle, navigate, mobileOpen }) => {
             <Button color="inherit">
               <Typography variant="tmdMed">Activities</Typography>
             </Button>
-            <Button color="inherit">
+            <Button color="inherit" onClick={handleWhitePaperClick}>
               <Typography variant="tmdMed">WhitePapers</Typography>
             </Button>
-            <Button variant="outlined" color="inherit">
+            <Menu
+              id="whitepaper-menu"
+              anchorEl={whitepaper}
+              open={WPOpen}
+              onClose={handleWhitePaperClose}
+              MenuListProps={{
+                "aria-labelledby": "basic-button",
+              }}
+            >
+              <MenuItem onClick={handleWhitePaperClose}>
+                <a href="/whitepapers/ChaiDEXWhitepaper-v1.pdf">ChaiDEX</a>
+              </MenuItem>
+              <MenuItem onClick={handleWhitePaperClose}>
+                <a href="/whitepapers/ChaiWalletWhitepaper-v1.pdf">
+                  Chai Wallet
+                </a>
+              </MenuItem>
+              <MenuItem onClick={handleWhitePaperClose}>
+                <a href="/whitepapers/ChaiTWhitepaper-v1.pdf">ChaiT</a>
+              </MenuItem>
+            </Menu>
+            <Button variant="outlined" color="success">
               <Typography variant="tmdMed">App</Typography>
             </Button>
-            <Button variant="contained" color="inherit">
+            <Button variant="contained" color="primary">
               <Typography variant="tmdMed">ChaiWallet</Typography>
             </Button>
           </Stack>
