@@ -6,6 +6,7 @@ import { createTheme } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import MenuBar from "./Components/MenuBar";
 import Layout from "./Utils/Layout";
+import { Container } from "@mui/system";
 
 const storedMode = localStorage.getItem("Chai_UI_Mode")
   ? localStorage.getItem("Chai_UI_Mode")

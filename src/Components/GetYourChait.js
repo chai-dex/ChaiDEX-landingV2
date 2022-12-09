@@ -57,7 +57,7 @@ const GetYourChait = () => {
               {isMobile ? (
                 <img src="assets/wallet_mobile.png" alt="hero image pc" />
               ) : (
-                <img src="/assets/wallet.png" />
+                <img src="/assets/wallet.png" alt="hero image mobile" />
               )}
             </Box>
           </Grid>

@@ -62,7 +62,11 @@ const HomePage = () => {
             {isMobile ? (
               ""
             ) : (
-              <img src="/assets/hero image.png" alt="hero image pc" />
+              <img
+                src="/assets/hero image.png"
+                alt="hero image pc"
+                width={"100%"}
+              />
             )}
           </Box>
         </Grid>
