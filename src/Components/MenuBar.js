@@ -6,7 +6,6 @@ import {
   Box,
   Button,
   Container,
-  Link,
   Menu,
   MenuItem,
   Stack,
@@ -14,25 +13,30 @@ import {
   useMediaQuery,
   useTheme,
 } from "@mui/material";
-
 import SideDrawer from "./SideDrawer";
+import { Link } from "react-router-dom";
+
 const MenuBar = ({ toggleMode, handleDrawerToggle, navigate, mobileOpen }) => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
   const [whitepaper, setWhitePaper] = React.useState(null);
+  const [activity, setActivity] = React.useState(null);
+
   const WPOpen = Boolean(whitepaper);
+  const ActivityOpen = Boolean(activity);
+
   const handleWhitePaperClick = (e) => setWhitePaper(e.currentTarget);
-  const handleWhitePaperClose = (event) => {
-    setWhitePaper(null);
-  };
+  const handleActivityClick = (e) => setActivity(e.currentTarget);
+
+  const handleWhitePaperClose = (event) => setWhitePaper(null);
+  const handleActivityClose = (event) => setActivity(null);
 
   return (
     <Toolbar
       sx={{
         width: "100%",
         mt: "5px",
-        // bgcolor: "red",
       }}
     >
       <Container
@@ -43,7 +47,6 @@ const MenuBar = ({ toggleMode, handleDrawerToggle, navigate, mobileOpen }) => {
           flexDirection: "row",
           width: "100%",
           mt: "5px",
-          // bgcolor: "red",
         }}
       >
         <Box
@@ -88,12 +91,28 @@ const MenuBar = ({ toggleMode, handleDrawerToggle, navigate, mobileOpen }) => {
         ) : (
           <Stack direction="row" spacing={2}>
             <Button color="inherit">
-              <Typography variant="tmdMed">Home</Typography>
+              <Link to="/">
+                <Typography variant="tmdMed">Home</Typography>
+              </Link>
             </Button>
 
-            <Button color="inherit">
+            <Button color="inherit" onClick={handleActivityClick}>
               <Typography variant="tmdMed">Activities</Typography>
             </Button>
+            <Menu
+              id="activity-menu"
+              anchorEl={activity}
+              open={ActivityOpen}
+              onClose={handleActivityClose}
+              MenuListProps={{
+                "aria-labelledby": "basic-button",
+              }}
+            >
+              <MenuItem onClick={handleActivityClose}>Bounty</MenuItem>
+              <MenuItem onClick={handleActivityClose}>Airdrop</MenuItem>
+              <MenuItem onClick={handleActivityClose}>subscribe</MenuItem>
+            </Menu>
+
             <Button color="inherit" onClick={handleWhitePaperClick}>
               <Typography variant="tmdMed">WhitePapers</Typography>
             </Button>
@@ -107,21 +126,27 @@ const MenuBar = ({ toggleMode, handleDrawerToggle, navigate, mobileOpen }) => {
               }}
             >
               <MenuItem onClick={handleWhitePaperClose}>
-                <a href="/whitepapers/ChaiDEXWhitepaper-v1.pdf">ChaiDEX</a>
+                <a href="/whitepapers/ChaiDEXWhitepaper-v1.pdf" target="_blank">
+                  ChaiDEX
+                </a>
               </MenuItem>
               <MenuItem onClick={handleWhitePaperClose}>
-                <a href="/whitepapers/ChaiWalletWhitepaper-v1.pdf">
+                <a
+                  href="/whitepapers/ChaiWalletWhitepaper-v1.pdf"
+                  target="_blank"
+                >
                   Chai Wallet
                 </a>
               </MenuItem>
               <MenuItem onClick={handleWhitePaperClose}>
-                <a href="/whitepapers/ChaiTWhitepaper-v1.pdf">ChaiT</a>
+                <a href="/whitepapers/ChaiTWhitepaper-v1.pdf" target="_blank">
+                  ChaiT
+                </a>
               </MenuItem>
             </Menu>
             <Button variant="outlined" color="success">
-              <a href="https://exchange.chaidex.com/">
-
-              <Typography variant="tmdMed">App</Typography>
+              <a href="https://exchange.chaidex.com/" target="_blank">
+                <Typography variant="tmdMed">App</Typography>
               </a>
             </Button>
             <Button variant="contained" color="primary">

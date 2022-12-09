@@ -17,3 +17,29 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 25px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  visibility: hidden;
+  background: #f1f1f1;
+  border-radius: 25px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  visibility: 2px;
+  background: #888;
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 25px;
+}
