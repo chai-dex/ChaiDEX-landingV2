@@ -11,19 +11,11 @@ import {
   useMediaQuery,
   useTheme,
 } from "@mui/material";
-import { useLocation, useNavigate } from "react-router-dom";
 
-const MenuBar = ({ toggleMode }) => {
+import SideDrawer from "./SideDrawer";
+const MenuBar = ({ toggleMode, handleDrawerToggle, navigate, mobileOpen }) => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
-
-  const [mobileOpen, setMobileOpen] = React.useState(false);
-
-  const handleDrawerToggle = () => {
-    setMobileOpen(!mobileOpen);
-  };
-  const navigate = useNavigate();
-
   return (
     <Toolbar
       sx={{
@@ -65,21 +57,29 @@ const MenuBar = ({ toggleMode }) => {
           </Typography>
         </Box>
         {isMobile ? (
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: "none" } }}
-          >
-            <MenuIcon />
-          </IconButton>
+          <>
+            <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              edge="start"
+              onClick={handleDrawerToggle}
+              sx={{ mr: 2, display: { sm: "none" } }}
+            >
+              <MenuIcon />
+            </IconButton>
+            <SideDrawer
+              isMobile={isMobile}
+              mobileOpen={mobileOpen}
+              handleDrawerToggle={handleDrawerToggle}
+              toggleMode={toggleMode}
+            />
+          </>
         ) : (
           <Stack direction="row" spacing={2}>
             <Button color="inherit">
               <Typography variant="tmdMed">Home</Typography>
             </Button>
-            
+
             <Button color="inherit">
               <Typography variant="tmdMed">Activities</Typography>
             </Button>

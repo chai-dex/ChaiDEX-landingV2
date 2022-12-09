@@ -5,6 +5,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { createTheme } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import MenuBar from "./Components/MenuBar";
+import Layout from "./Utils/Layout";
 
 const storedMode = localStorage.getItem("Chai_UI_Mode")
   ? localStorage.getItem("Chai_UI_Mode")
@@ -407,7 +408,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Router>
-        <MenuBar toggleMode={toggleMode} />
+        <Layout toggleMode={toggleMode} />
         <Routes>
           <Route path="/" element={<HomePage />} />
           {/* not found page */}
