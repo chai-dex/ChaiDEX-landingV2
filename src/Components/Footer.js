@@ -73,15 +73,15 @@ const Footer = () => {
             {/* 3 set */}
             <Grid item xs={12} sm={3}>
               <Box sx={{ my: 2 }}>
-                <a href="/public/assets/Terms & Conditions.pdf">Terms and Conditions</a>
+                <a href="/terms/Terms & Conditions.pdf" target="_blank">Terms and Conditions</a>
               </Box>
               <Box sx={{ my: 2 }}>
-              <a href="/public/assets/Privacy Policy.pdf"  target="_blank">
+              <a href="/terms/Privacy Policy.pdf"  target="_blank">
                   Privacy
                 </a>
               </Box>
               <Box sx={{ my: 2 }}>
-              <a href="/assets/Responsible Risk Disclosure Policy.pdf"  target="_blank">
+              <a href="/terms/Risk Disclosure Policy.pdf"  target="_blank">
                   Risk Disclosure
                 </a>
               </Box>
